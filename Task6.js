@@ -29,9 +29,9 @@ When the server starts listening, it will wait for incoming requests and invoke 
 const http = require('http');
 
 const server = http.createServer((req, res)=>{
-    console.log("Nidhi");
+    console.log("Ayan Alam");
     res.end();
-    // process.exit();
+    process.exit();
 })
 
 server.listen(4000);
